@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI';
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: white;
+}
+
+body.light {
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  color: black;
+}
+
+.container {
+  max-width: 420px;
+  margin: 60px auto;
+  padding: 25px;
+  border-radius: 20px;
+  background: rgba(0,0,0,0.5);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+  color: white;
+}
+
+#options button {
+  width: 100%;
+  margin: 5px 0;
+  background: #ffffff20;
+}
+
+.hide {
+  display: none;
+}
+
+#progress-bar {
+  height: 8px;
+  background: #555;
+  margin: 10px 0;
+}
+
+#progress {
+  height: 8px;
+  background: limegreen;
+  width: 0%;
+}
